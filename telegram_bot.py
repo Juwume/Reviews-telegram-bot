@@ -67,4 +67,5 @@ def query_handler(call):
     bot.edit_message_reply_markup(call.message.chat.id, call.message.message_id)
 
 bot.polling()
-#bot.polling(none_stop=True, interval=0)
+#bot.polling(none_stop=True, interval=0) 
+
